@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Hope Professional Medical Group &amp; Nursing Corporation</title>
+  <meta name="description" content="Get in touch with Hope Professional Medical Group &amp; Nursing Corporation to book a home visit or telehealth session." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preload" as="image" href="assets/mk-leaf.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=2" />
+</head>
+<body class="is-loading">
+
+  <!-- Preloader -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <div class="mark">
+        <img class="mk-leaf" src="assets/mk-leaf.webp" alt="" />
+        <div class="dove">
+          <img class="mk-wing-back" src="assets/mk-wing-back.webp" alt="" />
+          <img class="mk-body" src="assets/mk-body.webp" alt="" />
+          <img class="mk-wing-front" src="assets/mk-wing-front.webp" alt="" />
+        </div>
+      </div>
+      <div class="preloader__bar"><span></span></div>
+    </div>
+  </div>
+  <div class="veil" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Hope Professional Medical Group home">
+        <img class="brand__mark" src="assets/logo-mark.webp" alt="" />
+        <img class="brand__word" src="assets/wordmark.webp" alt="Hope Professional Medical Group &amp; Nursing Corporation" />
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <div class="nav__cta">
+        <a class="nav__phone" href="tel:+12135376956">213-537-6956</a>
+        <a class="btn" href="contact.html">Book a visit
+          <span class="btn-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" aria-label="Mobile">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="mobile-menu__foot">
+      <a href="tel:+12135376956">213-537-6956</a>
+      <a href="mailto:eden@hopepromedgrpnc.com">eden@hopepromedgrpnc.com</a>
+      <span>El Segundo, California</span>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="crumbs intro"><a href="index.html">Home</a><span>/</span><span>Contact</span></div>
+        <div class="page-hero__grid">
+          <h1>
+            <span class="split-line"><span>Let's talk</span></span>
+            <span class="split-line"><span>about <span class="serif">care.</span></span></span>
+          </h1>
+          <p class="lead intro d1">Have a question, or ready to book a visit? Reach out and our team will get back to you to find the right kind of support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <span class="pill pill--soft reveal" style="justify-self:start">Contact us</span>
+          <h2 class="reveal" data-delay="1">Get in <span class="serif">touch</span></h2>
+          <dl class="info-list reveal" data-delay="2">
+            <div><dt>Email</dt><dd><a href="mailto:eden@hopepromedgrpnc.com">eden@hopepromedgrpnc.com</a></dd></div>
+            <div><dt>Phone</dt><dd><a href="tel:+12135376956">213-537-6956</a></dd></div>
+            <div><dt>Address &amp; Fax</dt><dd>2321 Rosecrans Ave, Suite 5200<br />El Segundo, CA 90245<br />Fax: 310-868-2763</dd></div>
+          </dl>
+          <div class="pills reveal" data-delay="3">
+            <span class="pill">Telehealth</span>
+            <span class="pill pill--soft">Home Visits</span>
+          </div>
+        </div>
+
+        <form class="form reveal" data-delay="1" novalidate>
+          <div class="field">
+            <input id="f-name" name="name" type="text" placeholder=" " autocomplete="name" required />
+            <label for="f-name">Full name</label>
+          </div>
+          <div class="field">
+            <input id="f-email" name="email" type="email" placeholder=" " autocomplete="email" required />
+            <label for="f-email">Email address</label>
+          </div>
+          <div class="field">
+            <input id="f-phone" name="phone" type="tel" placeholder=" " autocomplete="tel" />
+            <label for="f-phone">Phone number</label>
+          </div>
+          <fieldset class="choice" style="border:0;margin:0">
+            <legend class="choice__label">I'm interested in</legend>
+            <div class="choice__opts">
+              <label><input type="radio" name="service" value="Medical" checked /><span>Medical</span></label>
+              <label><input type="radio" name="service" value="Mental Health" /><span>Mental Health</span></label>
+              <label><input type="radio" name="service" value="Not sure yet" /><span>Not sure yet</span></label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <textarea id="f-msg" name="message" placeholder=" " rows="4"></textarea>
+            <label for="f-msg">How can we help you?</label>
+          </div>
+          <button class="btn btn--light" type="submit">Send message
+            <span class="btn-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </button>
+          <p class="form__success" role="status">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+            Thank you. We've received your message and will be in touch soon.
+          </p>
+          <p class="form__note">Please don't include sensitive medical details. For emergencies, call 911.</p>
+        </form>
+      </div>
+    </section>
+
+    <div class="map reveal">
+      <iframe title="Map showing 2321 Rosecrans Ave, El Segundo" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=2321+Rosecrans+Ave+Suite+5200,+El+Segundo,+CA+90245&output=embed"></iframe>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__title">
+            <span class="eyebrow reveal">Ways to reach us</span>
+            <h2 class="reveal" data-delay="1">We're here <span class="serif">for you</span></h2>
+          </div>
+          <p class="reveal" data-delay="2">Choose whatever feels easiest. Every message goes straight to our care team.</p>
+        </div>
+        <div class="hours">
+          <a class="step reveal" href="tel:+12135376956">
+            <h3>Call us</h3>
+            <p>213-537-6956</p>
+            <span class="link-arrow">Call now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="step reveal" data-delay="1" href="mailto:eden@hopepromedgrpnc.com">
+            <h3>Email us</h3>
+            <p>eden@hopepromedgrpnc.com</p>
+            <span class="link-arrow">Write to us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <div class="step reveal" data-delay="2">
+            <h3>Visit or fax</h3>
+            <p>2321 Rosecrans Ave, Suite 5200, El Segundo, CA 90245<br />Fax: 310-868-2763</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" style="padding-top:0">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <img class="footer__logo" src="assets/logo.webp" alt="Hope Professional Medical Group &amp; Nursing Corporation" loading="lazy" />
+          <p class="footer__tag">Professional medical and mental health care, delivered with compassion at home and online.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:eden@hopepromedgrpnc.com">eden@hopepromedgrpnc.com</a></li>
+            <li><a href="tel:+12135376956">213-537-6956</a></li>
+            <li>Fax: 310-868-2763</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>2321 Rosecrans Ave, Suite 5200</li>
+            <li>El Segundo, CA 90245</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span data-year></span> Hope Professional Medical Group &amp; Nursing Corporation</span>
+        <button class="to-top">Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
