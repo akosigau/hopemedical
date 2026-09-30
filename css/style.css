@@ -376,7 +376,7 @@ p  { margin: 0; }
   align-items: center;
 }
 .hero__copy { display: grid; gap: 28px; }
-.hero h1 { font-size: clamp(46px, 5.8vw, 88px); }
+.hero h1 { font-size: clamp(44px, 5.8vw, 76px); }
 .hero h1 .serif { display: inline-block; padding-right: 0.08em; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 
