@@ -592,6 +592,11 @@ p  { margin: 0; }
   background: var(--leaf-tint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232f6b35' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / 12px no-repeat;
 }
 
+.checks--2col { grid-template-columns: 1fr 1fr; gap: 12px 24px; }
+.hours.ideal { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1080px) { .hours.ideal { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .checks--2col, .hours.ideal { grid-template-columns: 1fr; } }
+
 /* How we care */
 .care {
   background: var(--surface);
