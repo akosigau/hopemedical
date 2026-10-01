@@ -21,3 +21,17 @@ The form works visually but doesn't send anything yet. To connect it, for exampl
 ## Preloader
 The loader shows the logo mark (no text) with flapping dove wings for at least 2.2 seconds.
 To change how long it shows, edit `MIN_LOADER_MS` at the top of `js/main.js`.
+
+## SEO
+The site is set up for https://hopeprocare.com. Each page has a title, description, canonical link,
+and link-preview tags (`assets/social-share.jpg`). Structured data tells Google about the business
+(home page) and the FAQ (services page). `robots.txt` and `sitemap.xml` are in the root folder.
+
+If the address ever changes, search all files for `hopeprocare.com` and replace it.
+
+After launch:
+1. Add the site to Google Search Console (https://search.google.com/search-console) and submit
+   `https://hopeprocare.com/sitemap.xml`.
+2. Create or claim a free Google Business Profile, set up as a service-area business covering
+   the areas you serve.
+3. When you edit pages, update the `<lastmod>` dates in `sitemap.xml`.
