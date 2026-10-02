@@ -599,6 +599,23 @@ p  { margin: 0; }
 @media (max-width: 1080px) { .hours.ideal { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .checks--2col, .hours.ideal { grid-template-columns: 1fr; } }
 
+.note {
+  display: flex; align-items: flex-start; gap: 14px;
+  padding: 18px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--leaf-tint);
+  color: var(--ink-soft);
+  font-size: 16px;
+}
+.note strong { color: var(--green-deep); font-weight: 600; }
+.note__icon {
+  flex-shrink: 0;
+  display: grid; place-items: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: #fff; color: var(--green-deep);
+}
+.note__icon svg { width: 18px; height: 18px; }
+
 /* How we care */
 .care {
   background: var(--surface);
